@@ -1,0 +1,33 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  color: #3c303e;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  &::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: white;
+    border-left: 1px solid #cfd1da;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #9ca1b3;
+    border-radius: 10px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
